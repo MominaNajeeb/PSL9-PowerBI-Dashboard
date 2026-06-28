@@ -1,4 +1,8 @@
 # 🏏 PSL 9 Sports Analytics Dashboard | Power BI
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/DAX-0078D4?style=for-the-badge)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 > An interactive Power BI dashboard that analyzes **Pakistan Super League (PSL) Season 9** batting, bowling, team, and tournament statistics using business intelligence techniques.
 
@@ -136,26 +140,21 @@ PSL9-PowerBI-Dashboard
 
 ## 🏠 Home
 
-*(Insert dashboard-home.png here)*
-
+![Home Dashboard](images/dashboard-home.png)
 ---
 
 ## 📊 Tournament Summary
 
-*(Insert dashboard-summary.png here)*
-
----
+![Summary Dashboard](images/dashboard-summary.png)---
 
 ## 🏏 Batting Analytics
 
-*(Insert batting-stats.png here)*
-
+![Batting Dashboard](images/batting-stats.png)
 ---
 
 ## 🎯 Bowling Analytics
 
-*(Insert bowling-stats.png here)*
-
+![Bowling Dashboard](images/bowling-stats.png)
 ---
 
 # 💡 Key Insights
