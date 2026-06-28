@@ -145,7 +145,7 @@ PSL9-PowerBI-Dashboard
 
 ## 📊 Tournament Summary
 
-![Summary Dashboard](images/dashboard-summary.png)---
+![Summary Dashboard](images/summary.png)---
 
 ## 🏏 Batting Analytics
 
