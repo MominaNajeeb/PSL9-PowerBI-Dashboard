@@ -40,11 +40,44 @@ body {
   justify-content: space-between;
 }
 
-.logo img {
-  height: 58px;
-  width: auto;
-  display: block;
-  object-fit: contain;
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+}
+
+.logo-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 26px;
+  background: radial-gradient(circle, rgba(85,255,116,0.28), rgba(85,255,116,0.08));
+  border: 1px solid rgba(85,255,116,0.45);
+  box-shadow: 0 0 22px rgba(85,255,116,0.22);
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.logo-text strong {
+  color: #55ff74;
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: -0.5px;
+}
+
+.logo-text small {
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  margin-top: 5px;
 }
 
 .nav-links {
@@ -702,7 +735,5 @@ body {
     font-size: 42px;
   }
 
-  .logo img {
-    height: 48px;
-  }
+
 }
