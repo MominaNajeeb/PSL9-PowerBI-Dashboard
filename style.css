@@ -120,7 +120,7 @@ body {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(90deg, rgba(2, 8, 18, 0.98) 0%, rgba(2, 8, 18, 0.86) 36%, rgba(2, 8, 18, 0.25) 68%, rgba(2, 8, 18, 0.15) 100%),
+    linear-gradient(90deg, rgba(2, 8, 18, 1) 0%, rgba(2, 8, 18, 0.98) 32%, rgba(2, 8, 18, 0.70) 48%, rgba(2, 8, 18, 0.25) 72%, rgba(2, 8, 18, 0.10) 100%),
     linear-gradient(180deg, rgba(2, 8, 18, 0.05) 0%, rgba(2, 8, 18, 0.88) 100%);
   z-index: 2;
 }
@@ -137,8 +137,10 @@ body {
 }
 
 .hero-content {
-  width: 48%;
+  width: 46%;
   padding-top: 20px;
+  position: relative;
+  z-index: 8;
 }
 
 .project-badge {
@@ -226,8 +228,8 @@ body {
 .hero-image {
   position: absolute;
   top: 0;
-  right: -8%;
-  width: 68%;
+  right: -5%;
+  width: 60%;
   height: 100%;
   z-index: 1;
   pointer-events: none;
